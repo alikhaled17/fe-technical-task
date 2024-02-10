@@ -1,4 +1,4 @@
-import { EmptyResultProps } from "../interfaces/global";
+import { EmptyResultProps } from "@/app/interfaces/global";
 
 const EmptyResult = ({
   msg,
