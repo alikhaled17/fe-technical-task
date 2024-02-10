@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import Person from "../interfaces/Person";
-import { ViewType } from "../interfaces/global";
+import Person from "@/app/interfaces/Person";
+import { ViewType } from "@/app/interfaces/global";
 import PersonListItem from "./PersonListItem";
 
 type PersonsListProps = {
