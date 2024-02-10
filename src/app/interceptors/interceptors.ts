@@ -16,6 +16,8 @@ http.interceptors.request.use(
     const configClone = { ...config };
     configClone.headers = {
       ...configClone.headers,
+      "Content-Type": "application/json",
+      Accept: "application/json",
     } as AxiosRequestHeaders;
     return configClone;
   },
