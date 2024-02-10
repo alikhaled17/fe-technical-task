@@ -7,7 +7,7 @@ import axios, {
 } from "axios";
 
 const http = axios.create({
-  baseURL: import.meta.env.VITE_APP_BACKEND_URL,
+  baseURL: process.env.VITE_APP_BACKEND_URL, //import.meta.env.VITE_APP_BACKEND_URL,
 });
 
 // Request interceptor
