@@ -2,7 +2,7 @@
   "name": "sarmad-fe-technical-task",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://alikhaled17.github.io/sarmad-fe-technical-task",
+  "homepage": "https://alikhaled17.github.io/fe-technical-task",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
