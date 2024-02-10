@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .global-input {
+        @apply rounded-md w-full h-[50px] p-4 py-1 border border-light-green border-spacing-2 border-solid bg-[#ffffff80] placeholder-white focus:bg-white transition-all duration-200 outline-none;
+    }
+
+    .global-btn {
+        @apply w-full rounded-md text-white bg-light-green py-3 px-6 shadow-md transition-all hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none;
+    }
+
+    .smoothy {
+        @apply transition-all duration-200 ease-in-out;
+    }
+}
+
+* {
+    font-family: sans-serif, Georgia, Times, 'Times New Roman', serif arial, helvetica;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff20;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #54b82f;
+    border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00acce;
+}
