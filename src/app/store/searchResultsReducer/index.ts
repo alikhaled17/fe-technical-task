@@ -2,7 +2,6 @@
 import Person from "@/app/interfaces/Person";
 import HttpService from "@/app/services/http-service";
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-// import type { PayloadAction } from "@reduxjs/toolkit";
 
 export interface CounterState {
   results: Person[];

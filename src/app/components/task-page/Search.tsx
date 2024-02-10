@@ -10,9 +10,6 @@ import {
 } from "@/app/store/searchResultsReducer";
 import { RootState } from "@/app/store";
 
-// const Api =
-//   "https://develop.sarmad.sa/api/v1/integration/focal/screen/individual";
-
 const Search = () => {
   const dispatch = useDispatch();
   const { isLoading } = useSelector((state: RootState) => state.searchResults);
