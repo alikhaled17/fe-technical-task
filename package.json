@@ -5,7 +5,7 @@
   "homepage": "https://alikhaled17.github.io/fe-technical-task",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run dist",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",
