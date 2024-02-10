@@ -1,8 +1,8 @@
-# Project Task Assessment
+# Front-end technical task
 
 ## Overview
 
-This project task assessment focuses on creating a search form input that calls an API to retrieve response data, presenting it in both grid and row styles. The implementation includes various features such as localization, input validation using Formik, asynchronous handling of form changes using debouncing, state management with Redux, HTTP service setup with axios, and deployment on GitHub Pages. The project is bundled using Vite, and styling is achieved with Tailwind CSS.
+This solution focuses on creating a search form input that calls an API to retrieve response data, presenting it in both grid and row styles. The implementation includes various features such as localization, input validation using Formik, asynchronous handling of form changes using debouncing, state management with Redux, HTTP service setup with axios, and deployment on GitHub Pages. The project is bundled using Vite, and styling is achieved with Tailwind CSS.
 
 ## Features
 
